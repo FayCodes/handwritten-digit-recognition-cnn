@@ -1,48 +1,46 @@
-# AI-Assignment-Week-3
-Mastering the AI Toolkit - Deep Learning with CNN
+# AI-Powered MNIST Classifier (CNN)
 
-AI-Powered MNIST Classifier
-📌 Project Overview
+## Mastering the AI Toolkit - Deep Learning with CNN
+
+---
+
+## Project Overview
+
 This project leverages deep learning to recognize handwritten digits using TensorFlow and Keras. From dataset preprocessing to model training, accuracy evaluation, and deployment, this notebook showcases the full AI workflow while ensuring ethical AI principles.
 
-📍 Core Features: 
-✔ Data Preprocessing: Normalized MNIST images for optimal training. 
-✔ Model Architecture: A neural network using Dense and Dropout layers for efficiency. 
-✔ Performance Analysis: Accuracy graphs and confusion matrix to validate predictions. 
-✔ Bias Mitigation: Ethical AI considerations using fairness metrics. 
-✔ Deployment Strategies: Flask & Streamlit options for real-world interaction.
+---
 
-📂 Project Contents
-📄 mnist_classifier.ipynb → The main notebook, containing: 🔹 Dataset Preprocessing 🔹 Model Training & Optimization 🔹 Accuracy Graphs & Confusion Matrix 🔹 Ethical Reflection on AI Bias 🔹 Deployment Strategies
+## Core Features
 
-📸 Screenshots → Accuracy graphs included for performance evaluation.
+- Data Preprocessing: Normalized MNIST images for optimal training  
+- Model Architecture: Neural network using Dense and Dropout layers for efficiency  
+- Performance Analysis: Accuracy graphs and confusion matrix to validate predictions  
+- Bias Mitigation: Ethical AI considerations using fairness metrics  
+- Deployment Strategies: Flask and Streamlit options for real-world interaction  
 
-🛠 Running the Notebook
-🔹 Step 1: Open in Google Colab or Jupyter
-You can run the notebook in Google Colab using this link:
+---
 
-markdown
-[Open in Colab](INSERT_LINK_HERE)
-🔹 Step 2: Install Dependencies
-Install the necessary libraries directly in the notebook:
+## Project Contents
 
-python
-!pip install tensorflow matplotlib seaborn flask streamlit
-🔹 Step 3: Execute All Cells
-✔ Run each cell sequentially to train the model, visualize accuracy graphs, and prepare deployment.
+- `mnist_classifier.ipynb` → Main notebook containing:
+  - Dataset preprocessing  
+  - Model training and optimization  
+  - Accuracy graphs and confusion matrix  
+  - Ethical reflection on AI bias  
+  - Deployment strategies  
 
-📊 Model Performance
-✔ Training Accuracy: 98% ✔ Validation Accuracy: 97%
+- `images/` → Accuracy graphs and evaluation visuals  
 
-📌 Accuracy & Loss Graphs (See screenshots inside the notebook)
+---
 
-🌐 Deployment Strategies
-To make the MNIST classifier interactive, we explored two deployment options: ✔ Flask (API-based deployment) → Users upload images for prediction. ✔ Streamlit (User-friendly UI) → Simple interface for real-time interaction.
+## Running the Notebook
 
-📍 Live Demo Link: [Insert Deployment URL Here]
+### Step 1: Open in Google Colab or Jupyter
+You can run the notebook in Google Colab.
 
-⚖ Ethical Considerations
-✔ Bias Analysis: Addressed dataset balance concerns. 
-✔ Fairness Indicators: Explored TensorFlow’s fairness evaluation tools. 
-✔ Transparent AI: Ensuring equitable predictions across digit representations.
+---
 
+### Step 2: Install Dependencies
+
+```bash
+pip install tensorflow matplotlib seaborn flask streamlit
